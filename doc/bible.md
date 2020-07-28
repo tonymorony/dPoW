@@ -12,8 +12,9 @@
 2. [How to become a Notary Node operator](#how-to-become-a-notary-node-operator)
 3. [The Notary Node election process](#the-notary-node-election-process)
 4. [Responsibilities of a NN](#responsibilities-rights-and-duties-of-a-nn)
-5. [Guideline, general infos and policies](#guideline-general-infos-and-policies)
-6. [Code of Conduct](#code-of-conduct)
+5. [Notary Node regions](#notary-node-regions)
+6. [Guideline, general infos and policies](#guideline-general-infos-and-policies)
+7. [Code of Conduct](#code-of-conduct)
 
 #
 
@@ -81,7 +82,7 @@ For more information about becoming a Notary Node Operator, please see this guid
  
 To gain exposure and inform the Komodo community about one’s candidacy, as well as the motivations for that candidacy, it’s essential to submit a written proposal to the Komodo community. 
  
-<b>If you plan to run in the upcoming election, you have to submit your proposal to the Notary Node repository on [Github](https://github.com/KomodoPlatform/NotaryNodes/tree/master/season4/candidates) before February 28th, 2020. </b>
+<b>If you plan to run in the upcoming election, you have to submit your proposal to the Notary Node repository on [Github](https://github.com/KomodoPlatform/NotaryNodes/tree/master/season4/candidates) before April 13th, 2020. </b>
  
 At a minimum, every candidate must announce the region in which they are running and post the address to which KMD holders may send their VOTE tokens. 
  
@@ -105,7 +106,7 @@ The Komodo Notary Node Elections are stake weighted, meaning that those who hold
  
 A special voting token — let’s call it VOTE2020 — will be airdropped to KMD holders at a 1:1 ratio. If you have 1000 KMD, you will receive 1000 VOTE2020 tokens.
  
-The airdrop will take place on March 15th, 2020. The current supply of KMD is around 120 Million, so roughly 120 Million VOTE2020 tokens will be airdropped.
+The airdrop will take place on April 13th, 2020. The current supply of KMD is around 120 Million, so roughly 120 Million VOTE2020 tokens will be airdropped.
  
 It’s important to note that you must hold you private keys in order to receive your VOTE2020 tokens. If you hold your KMD on a centralized exchange, then you do not hold your private keys and you will not receive any VOTE2020 tokens.
  
@@ -114,18 +115,20 @@ Once you’ve received your VOTE2020 tokens, you may cast your ballot by sending
 The only rule for voting is that any redistribution or sale of VOTE2020 tokens is strictly prohibited. Anyone caught selling VOTE2020 tokens will be disqualified from participating in the election.
 
 It is also strictly prohibited to offer NN revenue shares (mining revenue share) to voters.
+
+CEX (wallets) are excluded from voting and users are advised to vote only from wallets whose private keys they fully control. VOTE2020 token transactions from CEX wallets are not counted.
  
 Apart from that, community members may vote for any candidates in any region. VOTE2020 tokens can be sent in any amount so there is no requirement to cast votes in any set percentages for any number of candidates in any region.
  
 For instance, if you want to send 100% of your VOTE2020 tokens to a single candidate, you may do so. If you want to send 20% of your votes to five different candidates in a single region, you may do that, too. If you want to send an equal 25% of your votes to one candidate in each of the four regions, that’s also an option. There are no rules dictating how you cast your ballot.
  
-Voting will be open for around two weeks, until March 31st. It is highly recommended that each community member read through the proposals of all the candidates before casting their vote. The proposals contain important information about how each candidate intends to help the Komodo ecosystem. 
+Voting will be open for around three weeks, until April 6th. It is highly recommended that each community member read through the proposals of all the candidates before casting their vote. The proposals contain important information about how each candidate intends to help the Komodo ecosystem. 
  
 All of the candidates' proposals, along with other useful information, will be posted on this new Komodo Notary Node Election GitHub repo.
 
-<b>The top 30 NNs who will be auto-elected will be announced on March 31st. 30 Notary Node spots are available in the 2020 election. Starting with season 4 the automatic re-elections are reduced to 3 spots per region.
+<b>The top 30 NNs who will be auto-elected will be announced on April 12th. 30 Notary Node spots are available in the 2020 election. Starting with season 4 the automatic re-elections are reduced to 3 spots per region.
 
-The elections start on March 15th with the airdrop of the Vote2020 tokens and end on March 31st. The Komodo Core update is planned for April 1st and the hardfork activation for May 31st, 2020. </b>
+The elections start on April 13th with the airdrop of the VOTE2020 tokens and end on May 4th. The Komodo Core update is planned for May 11th and the hardfork activation for June 14th, 2020. </b>
 
 
 <br>
@@ -150,6 +153,7 @@ Operating a Notary Node comes with various responsibilities but also grants you 
 - <b>xi.</b> Operate your NN in the assigned region. Using hosting providers with DCs in other regions and obfuscating this by using IPs from other regions will lead to immediate disqualification. 
 - <b>xii.</b> Subscribe to https://github.com/KomodoPlatform/dpow and react in a timely manner (<24h) to notifications and announcements.
 - <b>xiii.</b> Selling a NN spot is prohibited. This rule applies to all forms of disposition (giveaway, renting,...).
+- <b>xiv.</b> Notarization funds, deposited on your NN keys by the Komodo team, are reserved for dPoW operations - it is strictly prohibited to transfer this funds or to use them for anything other then notarizations. At the end of the NN season or if you lose your spot, all NN funds must be returned to the Komodo team. Notaries are responsible for ensuring sufficient KMD is sent from main node to third party node for use in notarisation (funding for other chains will be provided by the Komodo Team).
 
 ### NN Rights:
 
@@ -161,7 +165,35 @@ Operating a Notary Node comes with various responsibilities but also grants you 
 
 <br>
 
+## Notary Node regions
+
+- Green: NA
+- Yellow: EU
+- Red: SH
+- Blue: AR
+
+![NN Regions](https://github.com/komodoplatform/dpow/blob/master/doc/img/NN_regions.jpeg)
+
+<br>
+
 ## Guideline, general infos and policies 
+
+
+### Important dates for Season 4:
+
+- KMD snapshot: April 12th, 2020
+- Autoelection announcement: April 12th - cutoff time: April 12th 2020, 12pm UTC
+- Proposal deadline: April 13th 2020, 12pm UTC
+- Vote2020 airdrop: April 13th 2020, 12pm UTC
+- Season 4 Election start: April 13th 2020, 12pm UTC
+- Season 4 Election end: May 4th 2020, 12pm UTC
+- Public Komodo update announcement: May 11th, 2020
+- dPoW season 4 start: June 14th, 2020
+
+### Komodo Core and AC hardfork activation:
+
+- Komodo core hardfork activation: KMD block `1.922.000` (Sunday, June 14th, 2020)
+- SmartChain hardfork activation: Timestamp `1592146800` (Sunday, June 14th, 2020 03:00:00 PM UTC)
 
 ### The Komodo Mining ecosystem:
 
@@ -171,13 +203,29 @@ The Komodo mining ecosystem is exceptional in that a large part of the mining re
 
 The top 3 NNs (according to the new NN algorithm) get automatically re-elected. Only 3 spots per region are eligible for the auto-reelection. The other 48 public NN spots are claimable through the annual NN elections. 
 
+### Notary scoring:
+
+To determine relative participation notary scoring, refer to the following:
+
+- KMD -> BTC Notarisation: 0.0325 
+- Smartchain -> KMD notarisation: 0.8698/(number of main server chains*, not including KMD/BTC)
+- 3rd Party chain -> KMD notarisation: 0.0977/(number of active 3rd party server chains*, not including KMD) 
+
+Notarisation counts to be determined from decoded notarisation transaction OP_RETURN data on KMD block chain.
+
+\* *As listed in https://github.com/KomodoPlatform/dPoW/blob/master/README.md*
+
 ### Developer Nodes:
 
-Four Nodes are reserved for the Komodo team for mining and experimental, debugging, or research operations, which include the usage of custom and experimental core code.
+Four Nodes are reserved for the Komodo team for mining and experimental, debugging, or research operations, which include the usage of custom and experimental core code. Starting with Season 5, six Notary Nodes are reserved for developer and research operations.
 
-### Hunting unclaimed rewards: 
+### Hunting unclaimed rewards:
 
-The consensus rules allow every network participant to hunt the so-called “unclaimed reward blocks” which do contain additional mining-rewards. 
+The consensus rules allow every network participant to hunt the so-called “unclaimed reward blocks” which do contain additional mining-rewards.
+
+### Mine Komodo blocks with your NN pubkey:
+
+In the event a NN opts to hunt, as above, that NN must find some way to contribute block production to the network similar to the result of "traditional NN mining". This contribution shall be no less than 75% of the blocks produced by the region's leading block producing NN and in any event not below 15 blocks per day on average over the course of a calendar month. The contribution may be through means of only hunting part time, employing "external" hashrate full-time, or some combination of the two. This contribution shall <b>not</b> include mining several blocks in a short time with "external" hashrate and then abandoning the chain for a time, such an action does not produce a "similar result".
 
 ### NN gurus:
 
@@ -197,7 +245,8 @@ Two additional team-members form together with the NN judge a NN tribunal which 
 
 #### The current NN gurus are:
 
-Shossain (@SHossain#0007 on discord): AR and EU region <br>
+PHBA2061 (@PHBA2061#2530 on discord): EU region <br>
+Shossain (@SHossain#0007 on discord): AR region <br>
 Strob (@Strob#3417 on discord): NA region <br>
 Titomane (@titomane#3101): SH region <br>
 

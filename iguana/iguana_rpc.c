@@ -923,6 +923,8 @@ char *SuperNET_rpcparse(struct supernet_info *myinfo,char *retbuf,int32_t bufsiz
             return(filestr);
         else return(clonestr("{\"error\":\"cant find index7778\"}"));
     }
+    /*
+    // disable file serving through RPC requests of any type (GET/POST/unknown)
     else if ( (filestr= OS_filestr(&filesize,furl)) != 0 )
     {
         *jsonflagp = 1;
@@ -934,6 +936,7 @@ char *SuperNET_rpcparse(struct supernet_info *myinfo,char *retbuf,int32_t bufsiz
         //printf("return filetype.(%s) size.%ld\n",filetype,filesize);
         return(filestr);
     }
+    */
     if ( strncmp(&url[i],"/api",strlen("/api")) == 0 )
     {
         *jsonflagp = 1;
@@ -1153,6 +1156,7 @@ int32_t iguana_getheadersize(char *buf,int32_t recvlen)
 
 void iguana_rpcloop(void *args)
 {
+    RenameThread("iguana_rpcloop");
     static char *jsonbuf;
     uint16_t port; struct supernet_info *myinfo = args; char filetype[128],content_type[128];
     int32_t recvlen,flag,bindsock,postflag=0,contentlen,sock,remains,numsent,jsonflag=0,hdrsize,len;
