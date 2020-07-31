@@ -1,7 +1,7 @@
 {
 "port": 17774,
 "BTCminsigs": 13,
-"minsigs": 13,
+"minsigs": 2,
 "seeds": [
 	"103.6.12.117",
 	"95.213.238.99",
@@ -13,7 +13,7 @@
 	"139.99.208.141"
 ],
 "notaries": [
-        {"alien_AR": "024f20c096b085308e21893383f44b4faf1cdedea9ad53cc7d7e7fbfa0c30c1e71" },
+        {"tonyl_2": "033ac7d60d65246a59524d8cb83e2f7be9209c763650547cbd882bb4d6ba7769e1" },
         {"alien_EU": "022b85908191788f409506ebcf96a892f3274f352864c3ed566c5a16de63953236" },
         {"strob_NA": "02285bf2f9e96068ecac14bc6f770e394927b4da9f5ba833eaa9468b5d47f203a3" },
         {"titomane_SH": "02abf206bafc8048dbdc042b8eb6b1e356ea5dbe149eae3532b4811d4905e5cf01" },
@@ -75,6 +75,6 @@
         {"dappvader_SH": "025199bc04bcb8a17976d9fe8bc87763a6150c2727321aa59bf34a2b49f2f3a0ce" },
         {"alright_DEV": "03b6f9493658bdd102503585a08ae642b49d6a68fb69ac3626f9737cd7581abdfa" },
         {"artemii235_DEV": "037a20916d2e9ea575300ac9d729507c23a606b9a200c8e913d7c9832f912a1fa7" },
-        {"tonyl_DEV": "0258b77d7dcfc6c2628b0b6b438951a6e74201fb2cd180a795e4c37fcf8e78a678" },
+        {"tonyl_DEV": "03a8db38075c80348889871b4318b0a79a1fd7e9e21daefb4ca6e4f05e5963569c" },
         {"decker_DEV": "02fca8ee50e49f480de275745618db7b0b3680b0bdcce7dcae7d2e0fd5c3345744" }
 ]}
